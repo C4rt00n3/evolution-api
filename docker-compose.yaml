@@ -14,7 +14,7 @@ services:
       - evolution_instances:/evolution/instances
     networks:
       - evolution-net
-      - dokploy-network
+      # - dokploy-network
     env_file:
       - .env
     expose:
